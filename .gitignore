@@ -1,0 +1,10 @@
+# third-party binaries are not stored in the repository (see vendor/README.md)
+vendor/*.dll
+# build output
+dist/
+# runtime files the panel writes next to itself
+*.log
+backup/
+profiles/
+rampanel.settings.json
+rampanel.pending.json
