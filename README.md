@@ -38,7 +38,7 @@ RamPanel сам определяет уровень при запуске (вк�
 
 ## Установка
 
-Скачайте `RamPanel-Setup-x.y.z.exe` из Releases (если он там выложен) или соберите сами (ниже). Нужны Windows 10/11 x64
+Скачайте `RamPanel-Setup-x.y.z.exe` из [Releases](https://github.com/monimanpro/RamPanel/releases/latest) или соберите сами (ниже). Нужны Windows 10/11 x64
 и права администратора — больше ничего ставить не нужно: PowerShell 5.1 и .NET Framework 4 уже есть в Windows,
 библиотеки идут в комплекте. Ставится в `%LOCALAPPDATA%\Programs\RamPanel`, удаляется через «Параметры → Приложения».
 
@@ -96,6 +96,9 @@ interface (`root\wmi\AMD_ACPI`, the one Ryzen Master uses). Changes apply after 
   allowed ranges come from the BIOS itself, writing must be enabled explicitly, unknown BIOS layouts are verified after
   the next reboot only.
 - Everything else is read-only.
+
+Download the installer from [Releases](https://github.com/monimanpro/RamPanel/releases/latest) (Windows 10/11 x64, run as
+administrator; nothing else to install).
 
 Too-tight values can leave a machine unable to boot; on many laptops clearing CMOS means opening the case. Use at your
 own risk. Built by Claude (Anthropic) at the request of, and under the direction of, the repository owner. GPL-3.0.
